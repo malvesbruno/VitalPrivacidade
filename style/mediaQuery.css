@@ -1,0 +1,46 @@
+@media screen and (max-width: 729px){
+    
+nav ul{
+    display: flex;
+    flex-direction: row;
+    color: #f94605;
+}
+
+nav ul li{
+    margin-inline: .8em;
+    list-style: none;
+    font-family: 'Press Start 2P';
+    font-size: 0.5em;
+}
+
+nav ul li a{
+    color: #f94605;
+    text-decoration: none;
+}
+
+section h2{
+    text-align: center;
+    font-size: 0.7em !important;
+}
+
+div.publi h1{
+    font-size: 0.7em !important;
+}
+
+section h1{
+    font-size: 1em !important;
+    text-align: center;
+}
+
+.avatar_grid{
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.avatar_grid img{
+    background-color: rgb(214, 158, 6);
+    border-radius: 100%;
+    margin-block: 0.5em;
+}
+
+}
