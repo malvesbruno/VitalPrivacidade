@@ -112,3 +112,15 @@ section p{
     background-color: rgb(214, 158, 6);
     border-radius: 100%;
 }
+
+button{
+    width: clamp(20%, 30%, 60%);
+    height: 3em;
+    border-radius: 10px;
+    background-color: rgb(214, 158, 6);
+    border: none;
+    box-shadow: 10px 10px 10px #ffffff16;
+    cursor: pointer;
+    font-family: 'Press Start 2P';
+    color: #081218;
+}
